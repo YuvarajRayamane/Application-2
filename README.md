@@ -1,45 +1,20 @@
 # Application 2 : Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
-> Zeotap | Software Engineer Intern | Assignment | Application 2
 
 ## Applicant Introduction
-Hi! I am Ayush, prev. JP Morgan Chase, Google Summer of Code. Although all of
-this is already written on my GitHub profile, I'd still want to point to my 
-[LinkedIn](https://www.linkedin.com/in/theayushanand/).
+Develop a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system will utilize data from the
+ OpenWeatherMap API
 
 ## Table of Contents
-+ [Introduction](#introduction)
-+ [Technical Parts](#technical-parts)
-  - [Installation](#installation)
-  - [How to run](#how-to-run)
+
+
+  + [Installation](#installation)
+  + [How to run](#how-to-run)
 + [About Solution](#about-solution)
   - [Solution Overview](#solution-overview)
   - [Code Structure](#code-structure)
-+ [Non Technical Parts](#non-technical-parts)
-  - [My Approach](#my-approach)
-  - [Feedback](#feedback)
-+ [Outro](#outro)
-
-## Introduction
-> I read the assginment description a lot of times, so as to make sure I don't 
-> miss on anything important. 
 
 
-Most of the code I have written would seem like a story, so I made sure the README 
-doesn't :D. Everything would mostly be in bullets hereafter:
-* code is heavily commented and accompany suitable docstrings (Python code with 
-  Sphinx).
-* Unittests are written keeping in mind all edge cases that could occur, there are 
-  positive as well as negative test cases. Coverage too is kept above 80%.
-* This README will talk about the technical parts first, then about the solution.
-  And later about all miscellenous things, which are although technical, yet I put
-  them in the "non-technical" bracket. They talk more about my thinking and approach
-  towards the solution, and a brief discussion on the design is also present.
-
-## Technical Parts
 ### Installation
-I have tried my best to make it platform agnostic, and packaged everything into a 
-Docker Container. You can also execute the below seperately for running them on 
-your machine without Docker.
 
 + Backend
 
@@ -186,23 +161,6 @@ Tables
 * GET /statistics - Visualize Historical and Realtime weather data
 * GET /configs/ - Retrieve and Update Thresholds Configurations
 
-## Non Technical Parts
-Although most of the things have been dicussed under technical section, this section sort of 
-talks about how I approched the problem.
-
-### My Approach
-When I first saw the problem, the first question in my mind was the overall system design.
-But realised it's not a system design question but had to implement the APIs serving the
-requests. I would still go for the ideal way I would have designed such a system in an 
-interview, although I didn't get the time to implement it.
-
-![image](https://github.com/user-attachments/assets/616d168c-3d71-4857-8114-801b2b83a727)
 
 
-### Feedback
-The assignment was a bit lengthy, it has many tricky parts which are easier said than done.
-The availability gaurantee, redundancy mechanism, caching for efficient reads, couldn't be 
-addressed in such a short span of time.
 
-## Outro
-Thanks.
